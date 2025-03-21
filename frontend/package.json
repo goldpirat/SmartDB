@@ -1,0 +1,32 @@
+{
+  "name": "smartdb-architect-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Frontend for SmartDB Architect tool",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0",
+    "axios": "^1.5.0",
+    "react-ace": "^10.1.0",
+    "ace-builds": "^1.24.1",
+    "react-flow-renderer": "^10.3.16",
+    "react-dropzone": "^14.2.3",
+    "@mui/material": "^5.14.10",
+    "@mui/icons-material": "^5.14.10",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.4",
+    "vite": "^4.4.9",
+    "eslint": "^8.49.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}
